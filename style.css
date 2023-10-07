@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #121214;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+}
+
+:root {
+    --primary : #6c38cc;
+    --anti-accent: #7c7cba;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #202024;
+    border-radius: 8px;
+    padding: 50px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 160%;
+}
+
+.info input {
+    width: 50px;
+    background: none;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+    color: var(--anti-accent);
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+.info input::-webkit-outer-spin-button,
+.info input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.info input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.countdown {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.num {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 160px;
+    line-height: 1;
+    background: #29292e;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+.dots {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 160px;
+    color: var(--primary);
+}
+
+.btn {
+    background: var(--primary);
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 15px;
+    width: 100%;
+}
