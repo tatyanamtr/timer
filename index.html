@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="" class="timer">
+            <div class="info">Set timer for
+                <input type="number" name="work-time" aria-label="amount of minutes for working" value="25">
+                minutes
+            </div>
+            <div class="countdown">
+                <div class="num" id="min_tens">0</div>
+                <div class="num" id="min">0</div>
+                <div class="dots">:</div>
+                <div class="num" id="sec_tens">0</div>
+                <div class="num" id="sec">0</div>
+            </div>
+            <button type="submit" class="btn">Set up</button>
+        </form>
+    </div>
+    
+</body>
+</html>
